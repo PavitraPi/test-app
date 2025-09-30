@@ -1,0 +1,54 @@
+1. Purpose
+
+The Banking App allows users to perform basic banking operations in a terminal environment. It simulates account creation, deposits, withdrawals, balance checks, and transaction history.
+
+2. Functional Requirements
+User Features
+
+Create Account: User can create an account with name, account number, and initial deposit.
+
+View Balance: User can check their current account balance.
+
+Deposit Money: User can deposit money into their account.
+
+Withdraw Money: User can withdraw money (with balance check).
+
+View Transaction History: User can see their recent transactions.
+
+Exit Application: User can quit the app safely.
+
+Constraints
+
+Each account has a unique account number.
+
+No overdraft: withdrawal must not exceed balance.
+
+Transaction history limited to last 20 transactions.
+
+3. Non-Functional Requirements
+
+Usability: Simple menu-driven interface in terminal.
+
+Portability: Runs on any system with Python 3.
+
+Performance: Operations should execute instantly.
+
+Persistence (Optional): For this version, data is stored in memory (lost after exit).
+
+4. System Requirements
+
+OS: Windows / macOS / Linux
+
+Language: Python 3.8+
+
+Libraries: None (only standard library).
+
+5. Future Enhancements (not in v1)
+
+File/database storage.
+
+Multiple user logins.
+
+Interest calculation.
+
+Online banking simulation with authentication.
